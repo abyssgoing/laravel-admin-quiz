@@ -1,0 +1,22 @@
+{
+	"name": "abyssgoing/laravel-admin-quiz",
+	"type": "library",
+	"description": "A quiz admin for Laravel admin",
+	"keywords": ["laravel-admin", "quiz"],
+	"authors": [
+        {
+            "name": "Johnny Peng",
+            "email": "yilongpeng183@gmail.com"
+        }
+    ],
+	"require": {
+        "php": ">=7.0",
+		"laravel/framework": ">=5.5",
+        "encore/laravel-admin": ">=1.6"
+    },
+	"autoload": {
+        "psr-4": {
+			"Encore\\Admin\\Quiz\\": "src/"
+        }
+    }	
+}
